@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230726 22:04:34.985" rpa="false" schemaversion="4">
+<suite id="s1" name="Panelscout Robotframework" source="C:\Users\Mary\OneDrive\Dokumenty\dareit\panelscout_robotframework">
+<suite id="s1-s1" name="Tests" source="C:\Users\Mary\OneDrive\Dokumenty\dareit\panelscout_robotframework\tests">
+<suite id="s1-s1-s1" name="Test Addplayer Rf" source="C:\Users\Mary\OneDrive\Dokumenty\dareit\panelscout_robotframework\tests\test_addplayer_rf.robot">
+<test id="s1-s1-s1-t1" name="Login to the system" line="33">
+<kw name="Open login page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230726 22:04:35.269" level="INFO">Opening browser 'Chrome' to base url 'https://scouts-test.futbolkolektyw.pl/en'.</msg>
+<msg timestamp="20230726 22:04:35.269" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230726 22:04:35.270" level="FAIL">TypeError: WebDriver.__init__() got an unexpected keyword argument 'service_log_path'</msg>
+<status status="FAIL" starttime="20230726 22:04:35.269" endtime="20230726 22:04:35.299"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Scouts panel - sign in</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="NOT RUN" starttime="20230726 22:04:35.299" endtime="20230726 22:04:35.299"/>
+</kw>
+<status status="FAIL" starttime="20230726 22:04:35.268" endtime="20230726 22:04:35.299"/>
+</kw>
+<kw name="Type in email">
+<status status="NOT RUN" starttime="20230726 22:04:35.300" endtime="20230726 22:04:35.300"/>
+</kw>
+<kw name="Type in password">
+<status status="NOT RUN" starttime="20230726 22:04:35.301" endtime="20230726 22:04:35.301"/>
+</kw>
+<kw name="Click on the Submit button">
+<status status="NOT RUN" starttime="20230726 22:04:35.302" endtime="20230726 22:04:35.302"/>
+</kw>
+<kw name="Click Add player button">
+<status status="NOT RUN" starttime="20230726 22:04:35.303" endtime="20230726 22:04:35.303"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230726 22:04:35.303" endtime="20230726 22:04:35.304"/>
+</kw>
+<status status="FAIL" starttime="20230726 22:04:35.268" endtime="20230726 22:04:35.304">TypeError: WebDriver.__init__() got an unexpected keyword argument 'service_log_path'</status>
+</test>
+<doc>Suite description #automated tests for scout website</doc>
+<status status="FAIL" starttime="20230726 22:04:35.021" endtime="20230726 22:04:35.307"/>
+</suite>
+<status status="FAIL" starttime="20230726 22:04:35.019" endtime="20230726 22:04:35.310"/>
+</suite>
+<status status="FAIL" starttime="20230726 22:04:34.994" endtime="20230726 22:04:35.313"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Panelscout Robotframework">Panelscout Robotframework</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">Panelscout Robotframework.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Test Addplayer Rf">Panelscout Robotframework.Tests.Test Addplayer Rf</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
